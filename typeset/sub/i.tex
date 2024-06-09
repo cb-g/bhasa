@@ -1,0 +1,27 @@
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+
+\usepackage[dvipsnames]{xcolor}
+% https://github.com/rebelot/kanagawa.nvim/blob/master/lua/kanagawa/colors.lua
+\definecolor{custom_bg}{HTML}{12120f} % dragonBlack1
+\definecolor{custom_fg}{HTML}{c5c9c5} % dragonWhite
+\definecolor{custom_url}{HTML}{b6927b} % dragonOrange
+
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=custom_url,
+}
+\urlstyle{same}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\textcolor{custom_fg}{\thepage}}
+
+\usepackage[tone]{tipa}
+\usepackage{tipx}
+\let\ipa\textipa
+
+\usepackage{expex}
+
+\usepackage{float}
