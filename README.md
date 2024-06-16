@@ -8,13 +8,13 @@
 <!--     <img src="img/Arabic.png" height="100"> -->
 <!-- </p> -->
 
-<!-- ## Bengali -->
-<!--  -->
-<!-- [bengali.pdf](typeset/bengali.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Bengali.png" height="100"> -->
-<!-- </p> -->
+## Bengali
+
+[bengali.pdf](typeset/bengali.pdf)
+
+<p align="center">
+    <img src="img/Bengali.png" height="100">
+</p>
 
 <!-- ## Chinese -->
 <!--  -->
