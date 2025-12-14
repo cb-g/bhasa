@@ -32,13 +32,13 @@
     <img src="img/Hindi-Urdu.png" height="100">
 </p>
 
-<!-- ## Japanese -->
-<!--  -->
-<!-- [japanese.pdf](typeset/japanese.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Japanese.png" height="100"> -->
-<!-- </p> -->
+## Japanese
+
+[japanese.pdf](typeset/japanese.pdf)
+
+<p align="center">
+    <img src="img/Japanese.png" height="100">
+</p>
 
 ## Korean
 
@@ -48,29 +48,29 @@
     <img src="img/Korean.png" height="100">
 </p>
 
-<!-- ## Malayalam -->
-<!--  -->
-<!-- [malayalam.pdf](typeset/malayalam.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Malayalam.png" height="100"> -->
-<!-- </p> -->
+## Malayalam
 
-<!-- ## Persian -->
-<!--  -->
-<!-- [persian.pdf](typeset/persian.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Persian.png" height="100"> -->
-<!-- </p> -->
+[malayalam.pdf](typeset/malayalam.pdf)
 
-<!-- ## Punjabi -->
-<!--  -->
-<!-- [punjabi.pdf](typeset/punjabi.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Punjabi.png" height="100"> -->
-<!-- </p> -->
+<p align="center">
+    <img src="img/Malayalam.png" height="100">
+</p>
+
+## Persian
+
+[persian.pdf](typeset/persian.pdf)
+
+<p align="center">
+    <img src="img/Persian.png" height="100">
+</p>
+
+## Punjabi
+
+[punjabi.pdf](typeset/punjabi.pdf)
+
+<p align="center">
+    <img src="img/Punjabi.png" height="100">
+</p>
 
 ## Tamil
 
