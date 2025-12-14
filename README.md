@@ -40,13 +40,13 @@
 <!--     <img src="img/Japanese.png" height="100"> -->
 <!-- </p> -->
 
-<!-- ## Korean -->
-<!--  -->
-<!-- [korean.pdf](typeset/korean.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Korean.png" height="100"> -->
-<!-- </p> -->
+## Korean
+
+[korean.pdf](typeset/korean.pdf)
+
+<p align="center">
+    <img src="img/Korean.png" height="100">
+</p>
 
 <!-- ## Malayalam -->
 <!--  -->
@@ -80,13 +80,13 @@
     <img src="img/Tamil.png" height="100">
 </p>
 
-<!-- ## Telugu -->
-<!--  -->
-<!-- [telugu.pdf](typeset/telugu.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Telugu.png" height="100"> -->
-<!-- </p> -->
+## Telugu
+
+[telugu.pdf](typeset/telugu.pdf)
+
+<p align="center">
+    <img src="img/Telugu.png" height="100">
+</p>
 
 ## Thai
 
