@@ -286,6 +286,13 @@ TSWLatexianTemp*
 # expex forward references with \gathertags
 *-tags.tex
 
+# expex package files (downloaded for compilation)
+expex.sty
+expex.tex
+expex.zip
+expex/
+epltxfn.sty
+
 # standalone packages
 *.sta
 

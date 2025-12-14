@@ -16,13 +16,13 @@
     <img src="img/Bengali.png" height="100">
 </p>
 
-<!-- ## Chinese -->
-<!--  -->
-<!-- [chinese.pdf](typeset/chinese.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Chinese.png" height="100"> -->
-<!-- </p> -->
+## Chinese
+
+[chinese.pdf](typeset/chinese.pdf)
+
+<p align="center">
+    <img src="img/Chinese.png" height="100">
+</p>
 
 ## Hindi-Urdu
 
