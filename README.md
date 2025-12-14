@@ -1,12 +1,12 @@
 # bhasa
 
-<!-- ## Arabic -->
-<!--  -->
-<!-- [arabic.pdf](typeset/arabic.pdf) -->
-<!--  -->
-<!-- <p align="center"> -->
-<!--     <img src="img/Arabic.png" height="100"> -->
-<!-- </p> -->
+## Arabic
+
+[arabic.pdf](typeset/arabic.pdf)
+
+<p align="center">
+    <img src="img/Arabic.png" height="100">
+</p>
 
 ## Bengali
 
