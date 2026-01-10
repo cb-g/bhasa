@@ -1,0 +1,142 @@
+\documentclass{article}
+
+\input{sub/i_pdflatex.tex}
+
+\title{Vietnamese\\\ipa{[ti@N vi@\super{P}t]}}
+\author{\href{https://github.com/cb-g/bhasa}{github.com/cb-g/bhasa}}
+\date{\today}
+
+\begin{document}
+
+\pagecolor{custom_bg}\color{custom_fg}
+\maketitle\thispagestyle{empty}
+
+\newpage\setcounter{page}{1}\section{Phonology}
+
+\subsection{Consonants}
+
+\begin{xltabular}{\textwidth}{lL}
+  \ipa{m} & voiced bilabial nasal \\
+  \ipa{n} & voiced alveolar nasal \\
+  \ipa{\textltailn} & voiced palatal nasal \\
+  \ipa{N} & voiced velar nasal \\
+  \ipa{p} & voiceless bilabial plosive (syllable-final only) \\
+  \ipa{B} & voiced bilabial implosive \\
+  \ipa{t} & voiceless alveolar plosive \\
+  \ipa{t\super{h}} & aspirated voiceless alveolar plosive \\
+  \ipa{D} & voiced alveolar implosive \\
+  \ipa{c} & voiceless palatal plosive \\
+  \ipa{\:t} & voiceless retroflex plosive (Northern) \\
+  \ipa{k} & voiceless velar plosive \\
+  \ipa{P} & glottal stop (syllable-final) \\
+  \ipa{f} & voiceless labiodental fricative \\
+  \ipa{v} & voiced labiodental fricative (Northern) \\
+  \ipa{s} & voiceless alveolar fricative \\
+  \ipa{z} & voiced alveolar fricative (Northern) \\
+  \ipa{\:s} & voiceless retroflex fricative \\
+  \ipa{\:z} & voiced retroflex fricative (Northern) \\
+  \ipa{x} & voiceless velar fricative \\
+  \ipa{G} & voiced velar fricative \\
+  \ipa{h} & voiceless glottal fricative \\
+  \ipa{l} & voiced alveolar lateral approximant \\
+  \ipa{w} & voiced labiovelar approximant \\
+  \ipa{j} & voiced palatal approximant \\
+\end{xltabular}
+
+\subsection{Vowels}
+
+\begin{xltabular}{\textwidth}{lL}
+  \ipa{i} & close front unrounded vowel \\
+  \ipa{e} & close-mid front unrounded vowel \\
+  \ipa{E} & open-mid front unrounded vowel \\
+  \ipa{1} & close central unrounded vowel \\
+  \ipa{@} & mid central unrounded vowel \\
+  \ipa{a} & open front unrounded vowel (short) \\
+  \ipa{a:} & open central unrounded vowel (long) \\
+  \ipa{u} & close back rounded vowel \\
+  \ipa{o} & close-mid back rounded vowel \\
+  \ipa{O} & open-mid back rounded vowel \\
+  \ipa{i@} & diphthong: close front to mid central \\
+  \ipa{1@} & diphthong: close central to mid central \\
+  \ipa{u@} & diphthong: close back to mid central \\
+\end{xltabular}
+
+\subsection{Tones}
+
+\begin{xltabular}{\textwidth}{lL}
+  \ipa{\tone{55}} & ngang: high level tone (unmarked in orthography) \\
+  \ipa{\tone{21}} & huy\`{\^e}n: low falling tone (grave accent) \\
+  \ipa{\tone{35}} & s\'ac: high rising tone (acute accent) \\
+  \ipa{\tone{313}} & h\~oi: dipping-rising tone (hook above) \\
+  \ipa{\tone{35}\super{P}} & ng\~a: broken rising tone with glottalization (tilde) \\
+  \ipa{\tone{21}\super{P}} & n\d{a}ng: low glottalized tone (dot below) \\
+\end{xltabular}
+
+\newpage\section{Glosses}
+
+\pex[lingstyle=custom_nlevel, labeltype=caps]
+\a \begingl
+{\rightcomment{\ipa{[ha: n\`Oj]}}\ipa{toj}}[{\sc 1sg}]
+\ipa{t1\super{P}}[self]
+\ipa{zo}[free]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[hu@\super{P}]}}\ipa{toj}}[{\sc 1sg}]
+\ipa{t1\super{P}}[self]
+\ipa{jo}[free]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[sa:\`I g\`On]}}\ipa{toj}}[{\sc 1sg}]
+\ipa{t1\super{P}}[self]
+\ipa{jo}[free]
+\glft I am free.
+\endgl
+\xe
+
+\pex[lingstyle=custom_nlevel, labeltype=caps]
+\a \begingl
+{\rightcomment{\ipa{[ha: n\`Oj]}}\ipa{maj}}[{\sc 2sg.inf}]
+\ipa{la:}[{\sc cop}]
+\ipa{Ban}[friend]
+\ipa{taw}[{\sc 1sg.inf}]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[hu@\super{P}]}}\ipa{mi}}[{\sc 2sg.inf}]
+\ipa{la:}[{\sc cop}]
+\ipa{Ban}[friend]
+\ipa{taw}[{\sc 1sg.inf}]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[sa:\`I g\`On]}}\ipa{maj}}[{\sc 2sg.inf}]
+\ipa{la:}[{\sc cop}]
+\ipa{Ban}[friend]
+\ipa{taw}[{\sc 1sg.inf}]
+\glft You are my friend.
+\endgl
+\xe
+
+\pex[lingstyle=custom_nlevel, labeltype=caps]
+\a \begingl
+{\rightcomment{\ipa{[ha: n\`Oj]}}\ipa{cuN}}[{\sc pl}]
+\ipa{toj}[{\sc 1sg}]
+\ipa{mu@n}[want]
+\ipa{v\`e}[return]
+\ipa{\textltailn a:}[house]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[hu@\super{P}]}}\ipa{Bon}}[{\sc 1pl}]
+\ipa{mi}[{\sc 1pl}]
+\ipa{mu@n}[want]
+\ipa{v\`e}[return]
+\ipa{\textltailn a:}[house]
+\endgl
+\a \begingl
+{\rightcomment{\ipa{[sa:\`I g\`On]}}\ipa{tuP\super{j}}}[{\sc 1pl}]
+\ipa{mu@n}[want]
+\ipa{v\`e}[return]
+\ipa{\textltailn a:}[house]
+\glft We want to go home.
+\endgl
+\xe
+
+\end{document}

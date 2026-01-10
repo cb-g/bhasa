@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\input{sub/i_xelatex.tex}
+
+\title{Bengali\\{\bengalifont বাংলা}\\\ipa{["baNgla]}}
+\author{\href{https://github.com/cb-g/bhasa}{github.com/cb-g/bhasa}}
+\date{\today}
+
+\begin{document}
+
+\pagecolor{custom_bg}\color{custom_fg}
+\maketitle\thispagestyle{empty}
+
+\newpage\setcounter{page}{1}\section{Phonology}
+
+\subsection{Vowels}
+
+\begin{xltabular}{\textwidth}{lL}
+  \ipa{O} & open-mid back rounded vowel \\
+  \ipa{o} & close-mid back rounded vowel \\
+  \ipa{5} & near-open central vowel \\
+  \ipa{\"a} & open central unrounded vowel \\
+  \ipa{i} & close front unrounded vowel \\
+  \ipa{u} & close back rounded vowel \\
+  \ipa{e} & close-mid front unrounded vowel \\
+  \ipa{\ae} & near-open front unrounded vowel \\
+  \ipa{\~a} & nasalized vowel (e.g. nasalized \ipa{\"a}) \\
+  \ipa{oi} & diphthong: close-mid back rounded plus close front unrounded vowel \\
+  \ipa{ou} & diphthong: close-mid back rounded plus close back rounded vowel \\
+\end{xltabular}
+
+\subsection{Consonants}
+
+\begin{xltabular}{\textwidth}{lL}
+  \ipa{m} & voiced bilabial nasal \\
+  \ipa{p} & voiceless bilabial plosive \\
+  \ipa{p\super h} & aspirated voiceless bilabial plosive \\
+  \ipa{b} & voiced bilabial plosive \\
+  \ipa{b\super h} & aspirated voiced bilabial plosive \\
+  \ipa{n} & voiced alveolar nasal \\
+  \ipa{\textsubbridge{t}} & voiceless dental plosive \\
+  \ipa{\textsubbridge{t}\super h} & aspirated voiceless dental plosive \\
+  \ipa{\textsubbridge{d}} & voiced dental plosive \\
+  \ipa{\textsubbridge{d}\super h} & aspirated voiced dental plosive \\
+  \ipa{\:n} & voiced retroflex nasal \\
+  \ipa{\:t} & voiceless retroflex plosive \\
+  \ipa{\:t\super h} & aspirated voiceless retroflex plosive \\
+  \ipa{\:d} & voiced retroflex plosive \\
+  \ipa{\:d\super h} & aspirated voiced retroflex plosive \\
+  \ipa{\t{\textteshlig}} & voiceless postalveolar affricate \\
+  \ipa{\t{\textteshlig}\super h} & aspirated voiceless postalveolar affricate \\
+  \ipa{\t{\textdyoghlig}} & voiced postalveolar affricate \\
+  \ipa{\t{\textdyoghlig}\super h} & aspirated voiced postalveolar affricate \\
+  \ipa{N} & voiced velar nasal \\
+  \ipa{k} & voiceless velar plosive \\
+  \ipa{k\super h} & aspirated voiceless velar plosive \\
+  \ipa{g} & voiced velar plosive \\
+  \ipa{g\super h} & aspirated voiced velar plosive \\
+  \ipa{r} & voiced alveolar trill \\
+  \ipa{l} & voiced alveolar lateral approximant \\
+  \ipa{S} & voiceless postalveolar fricative \\
+  \ipa{C} & voiceless alveolo-palatal fricative \\
+  \ipa{s} & voiceless alveolar fricative \\
+  \ipa{\texthth} & voiced glottal fricative \\
+  \ipa{\:r} & voiced retroflex flap \\
+  \ipa{\:r\super h} & aspirated voiced retroflex flap \\
+\end{xltabular}
+
+\newpage\section{Glosses}
+
+\ex[lingstyle=custom_nlevel]
+\begingl
+\ipa{\"ami}[{\sc 1sg}]
+\ipa{"muk\textsubbridge{t}o}[free]
+\glft {\normalfont\bengalifont আমি মুক্ত।}\\I am free.
+\endgl
+\xe
+
+\ex[lingstyle=custom_nlevel]
+\begingl
+\ipa{"tumi}[{\sc 2sg}]
+\ipa{\"am\"ar}[my]
+\ipa{"bon\textsubbridge{d}\texthth o}[friend]
+\glft {\normalfont\bengalifont তুমি আমার বন্ধু।}\\You are my friend.
+\endgl
+\xe
+
+\ex[lingstyle=custom_nlevel]
+\begingl
+\ipa{\"amRa}[{\sc 1pl}]
+\ipa{"ba:\:ri}[home]
+\ipa{"dZe\textsubbridge{t}e}[go.{\sc inf}]
+\ipa{\t{\textteshlig}ai}[want.{\sc pres.1pl}]
+\glft {\normalfont\bengalifont আমরা বাড়ি যেতে চাই।}\\We want to go home.
+\endgl
+\xe
+
+\end{document}

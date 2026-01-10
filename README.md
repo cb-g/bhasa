@@ -1,129 +1,87 @@
 # bhasa
 
-## Arabic
+## Compile
 
-[arabic.pdf](typeset/arabic.pdf)
+```sh
+# Build Docker image (first time only)
+./build.sh
 
-<p align="center">
-    <img src="img/Arabic.png" height="100">
-</p>
+# Compile PDFs (pdflatex - IPA only)
+./compile_pdflatex.sh
 
-## Bengali
+# Compile PDFs (xelatex - with native scripts)
+./compile_xelatex.sh
 
-[bengali.pdf](typeset/bengali.pdf)
+# Clean auxiliary files
+./clean-latex-artifacts.sh
+```
 
-<p align="center">
-    <img src="img/Bengali.png" height="100">
-</p>
+## Study
 
-## Cantonese
+### Arabic · العربية · [al ʕaraˈbijːa]
 
-[cantonese.pdf](typeset/cantonese.pdf)
+[pdflatex](typeset/arabic_pdflatex.pdf) · [xelatex (incl. Abjad)](typeset/arabic_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Cantonese.png" height="100">
-</p>
+### Bengali · বাংলা · [ˈbaŋla]
 
-## Chinese
+[pdflatex](typeset/bengali_pdflatex.pdf) · [xelatex (incl. Bangla lipi)](typeset/bengali_xelatex.pdf)
 
-[chinese.pdf](typeset/chinese.pdf)
+### Cantonese · 粵語 · [jyːt˨˥jyː˩˧]
 
-<p align="center">
-    <img src="img/Chinese.png" height="100">
-</p>
+[pdflatex](typeset/cantonese_pdflatex.pdf) · [xelatex (incl. Fantizi)](typeset/cantonese_xelatex.pdf)
 
-## Hindi-Urdu
+### Chinese · 中文 · [ʈ͡ʂʊŋwən]
 
-[hindi-urdu.pdf](typeset/hindi-urdu.pdf)
+[pdflatex](typeset/chinese_pdflatex.pdf) · [xelatex (incl. Jiantizi)](typeset/chinese_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Hindi-Urdu.png" height="100">
-</p>
+### Hindi-Urdu · हिन्दी-اردو · [ˈɦɪndiː ˈʊɾduː]
 
-## Japanese
+[pdflatex](typeset/hindi-urdu_pdflatex.pdf) · [xelatex (incl. Devanagari + Nastaliq)](typeset/hindi-urdu_xelatex.pdf)
 
-[japanese.pdf](typeset/japanese.pdf)
+### Japanese · 日本語 · [nihoŋɡo]
 
-<p align="center">
-    <img src="img/Japanese.png" height="100">
-</p>
+[pdflatex](typeset/japanese_pdflatex.pdf) · [xelatex (incl. Kanji + Kana)](typeset/japanese_xelatex.pdf)
 
-## Korean
+### Korean · 한국어 · [hanɡuɡʌ]
 
-[korean.pdf](typeset/korean.pdf)
+[pdflatex](typeset/korean_pdflatex.pdf) · [xelatex (incl. Hangul)](typeset/korean_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Korean.png" height="100">
-</p>
+### Lao · ພາສາລາວ · [pʰaː˧˥saː˨˦laːw˧˥]
 
-## Lao
+[pdflatex](typeset/lao_pdflatex.pdf) · [xelatex (incl. Akson Lao)](typeset/lao_xelatex.pdf)
 
-[lao.pdf](typeset/lao.pdf)
+### Malayalam · മലയാളം · [mɐlɐjaːɭɐm]
 
-<p align="center">
-    <img src="img/Lao.png" height="100">
-</p>
+[pdflatex](typeset/malayalam_pdflatex.pdf) · [xelatex (incl. Malayalam lipi)](typeset/malayalam_xelatex.pdf)
 
-## Malayalam
+### Persian · فارسی · [fɒːɾˈsiː]
 
-[malayalam.pdf](typeset/malayalam.pdf)
+[pdflatex](typeset/persian_pdflatex.pdf) · [xelatex (incl. Nastaliq)](typeset/persian_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Malayalam.png" height="100">
-</p>
+### Punjabi · ਪੰਜਾਬੀ · [pə̃ɲˈd͡ʒaːbi]
 
-## Persian
+[pdflatex](typeset/punjabi_pdflatex.pdf) · [xelatex (incl. Gurmukhi)](typeset/punjabi_xelatex.pdf)
 
-[persian.pdf](typeset/persian.pdf)
+### Russian · Русский · [ˈruskʲɪj jɪˈzɨk]
 
-<p align="center">
-    <img src="img/Persian.png" height="100">
-</p>
+[pdflatex](typeset/russian_pdflatex.pdf) · [xelatex (incl. Cyrillic)](typeset/russian_xelatex.pdf)
 
-## Punjabi
+### Tamil · தமிழ் · [t̪amiɻ]
 
-[punjabi.pdf](typeset/punjabi.pdf)
+[pdflatex](typeset/tamil_pdflatex.pdf) · [xelatex (incl. Tamil ezhuttu)](typeset/tamil_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Punjabi.png" height="100">
-</p>
+### Telugu · తెలుగు · [ˈteluɡu]
 
-## Russian
+[pdflatex](typeset/telugu_pdflatex.pdf) · [xelatex (incl. Telugu lipi)](typeset/telugu_xelatex.pdf)
 
-[russian.pdf](typeset/russian.pdf)
+### Thai · ภาษาไทย · [pʰaːsǎːtʰaj]
 
-<p align="center">
-    <img src="img/Russian.png" height="100">
-</p>
+[pdflatex](typeset/thai_pdflatex.pdf) · [xelatex (incl. Phayanchana)](typeset/thai_xelatex.pdf)
 
-## Tamil
+### Turkish · [ˈtyɾkt͡ʃe]
 
-[tamil.pdf](typeset/tamil.pdf)
+[pdflatex](typeset/turkish_pdflatex.pdf) · [xelatex](typeset/turkish_xelatex.pdf)
 
-<p align="center">
-    <img src="img/Tamil.png" height="100">
-</p>
+### Vietnamese · Tiếng Việt · [tiəŋ viət]
 
-## Telugu
-
-[telugu.pdf](typeset/telugu.pdf)
-
-<p align="center">
-    <img src="img/Telugu.png" height="100">
-</p>
-
-## Thai
-
-[thai.pdf](typeset/thai.pdf)
-
-<p align="center">
-    <img src="img/Thai.png" height="100">
-</p>
-
-## Turkish
-
-[turkish.pdf](typeset/turkish.pdf)
-
-<p align="center">
-    <img src="img/Turkish.png" height="100">
-</p>
+[pdflatex](typeset/vietnamese_pdflatex.pdf) · [xelatex (incl. Quốc ngữ)](typeset/vietnamese_xelatex.pdf)
