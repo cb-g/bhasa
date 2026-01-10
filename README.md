@@ -16,6 +16,14 @@
     <img src="img/Bengali.png" height="100">
 </p>
 
+## Cantonese
+
+[cantonese.pdf](typeset/cantonese.pdf)
+
+<p align="center">
+    <img src="img/Cantonese.png" height="100">
+</p>
+
 ## Chinese
 
 [chinese.pdf](typeset/chinese.pdf)
@@ -48,6 +56,14 @@
     <img src="img/Korean.png" height="100">
 </p>
 
+## Lao
+
+[lao.pdf](typeset/lao.pdf)
+
+<p align="center">
+    <img src="img/Lao.png" height="100">
+</p>
+
 ## Malayalam
 
 [malayalam.pdf](typeset/malayalam.pdf)
@@ -72,6 +88,14 @@
     <img src="img/Punjabi.png" height="100">
 </p>
 
+## Russian
+
+[russian.pdf](typeset/russian.pdf)
+
+<p align="center">
+    <img src="img/Russian.png" height="100">
+</p>
+
 ## Tamil
 
 [tamil.pdf](typeset/tamil.pdf)
@@ -94,4 +118,12 @@
 
 <p align="center">
     <img src="img/Thai.png" height="100">
+</p>
+
+## Turkish
+
+[turkish.pdf](typeset/turkish.pdf)
+
+<p align="center">
+    <img src="img/Turkish.png" height="100">
 </p>
